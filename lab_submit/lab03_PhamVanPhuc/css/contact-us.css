@@ -1,0 +1,87 @@
+.information {
+    padding-left: 60px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.check {
+    padding-left: 40px;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+.check p {
+    padding: 0;
+}
+
+.select {
+    padding-left: 40px;
+    max-width: 600px;
+}
+
+.contract {
+    max-width: 600px;
+    margin: 20px;
+}
+
+.contract p {
+    padding: 0;
+}
+
+.checkbox-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.form-row {
+    display: flex;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+
+.form {
+    padding-left: 20px;
+}
+
+.select .form-row {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.select label {
+    display: inline-block;
+    margin-bottom: 4px;
+}
+
+.select select,
+.select textarea {
+    width: auto;
+    padding: 3px;
+}
+
+.select .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+.select button {
+    width: fit-content;
+    font-size: 12px;
+    padding: 2px 6px;
+    cursor: pointer;
+}
+
+.contract p {
+    margin-bottom: 5px;
+    line-height: 1.5;
+}
+
+.contract a {
+    color: blue;
+    text-decoration: underline;
+}
